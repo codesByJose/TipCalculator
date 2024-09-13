@@ -215,6 +215,8 @@ small{
         height: 700px;
         width: 100%;
         max-width: 100%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
     .splitter{
         margin-top: 100px;
