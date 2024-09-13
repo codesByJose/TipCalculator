@@ -34,6 +34,8 @@ body{
 .splitter{
     font-size: 30px;
     letter-spacing: 20px;
+    margin: auto;
+    text-align: center;
    
 }
 .percentage-container{
@@ -202,6 +204,7 @@ small{
     }
     .container{
         min-height:90%;
+        width: 100vw;
     }
     .innerContainer{
         display: flex;
