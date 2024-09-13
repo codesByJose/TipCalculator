@@ -206,7 +206,6 @@ small{
         min-height: calc(100vh + 200px);
     }
     .container{
-        background-color: yellow;
         max-width: 100%;
         width: 100%;
     }
