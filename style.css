@@ -32,10 +32,13 @@ body{
     background-color: hsl(0, 0%, 100%);
 }
 .splitter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 30px;
     letter-spacing: 20px;
-    margin: auto;
     text-align: center;
+    
    
 }
 .percentage-container{
@@ -203,6 +206,7 @@ small{
         min-height: calc(100vh + 200px);
     }
     .container{
+        background-color: yellow;
         max-width: 100%;
         width: 100%;
     }
@@ -214,6 +218,7 @@ small{
         max-width: 100%;
     }
     .splitter{
+        margin-top: 100px;
         text-align: center;
     }
 }
