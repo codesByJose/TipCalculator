@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script src="tip.js" defer></script>
+    <title>Tip Caalculator</title>
+</head>
+<body>
+    <div class="container">
+       <div class="splitter">
+        <p>SPLI <br> TTER</p>
+       </div>
+        <div class="innerContainer">
+            <div class="percentage-container">
+                <div class="Bill-input">
+                    <p class="bill">Bill</p>
+                 <div class="input">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <input type="text"  id="bill-input" placeholder="0">
+                 </div>
+                </div>
+                <p class="select">Select Tip %</p>
+                <div class="buttons">
+                    <button>5%</button>
+                    <button>10%</button>
+                    <button>15%</button>
+                    <button>25%</button>
+                    <button>50%</button>
+                    <input class="custom" placeholder="Custom" id="custom"></input>
+                </div>
+                <div class="number">
+                    <div class="flex">
+                        <p class="NumberOfPeople">Number of People</p>
+                        <small id="error-message"></small>
+                    </div>
+                    
+                    <div class="input" >
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="0" id="number-input">
+                    </div>
+                </div>
+            </div>
+            <div class="tip-container">
+                <div class="amount-zero">
+                    <div class="tip-amount">
+                        <p class="amount">Tip Amount</p>
+                        <p class="person">/ person</p>
+                    </div>
+                    <div class="dollar-zero"><i class="fa-solid fa-dollar-sign" id="dollar"></i>
+                        <p id="tip-person">0.00</p>
+                    </div>
+                </div>
+                    <div class="total-zero">
+                        <div class="total-amount">
+                            <p class="total">Total</p>
+                            <p class="person">/ person</p>
+                        </div>
+                        <div class="dollar-zero"><i class="fa-solid fa-dollar-sign" id="dollar"></i>
+                            <p id="total-person">0.00</p>
+                        </div>
+                    </div>
+                
+                <button class="reset" id="reset">RESET</button>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
