@@ -42,7 +42,7 @@ Users should be able to:
 
 
 ### What I learned
-WHat i learnt is to refactor code, writing codes in the rawrest form and then making them reuseable is hwat this project has taught me. It also taught me that solving problem is a step by step thing, and i am glad i learnt and scaled through
+WHat i learnt is to refactor code, writing codes in the rawrest form and then making them reuseable is hwat this project has taught me. It also taught me that solving problem is a step by step thing, and i am glad i learnt and scaled through.
 
 To see how you can add code snippets, see below:
 
